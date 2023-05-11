@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title> Product name </title>
+    </head>
+
+    <body>
+        <header>
+        <h1 style="border:solid; background-color:orange;
+         text-align:center ">
+        New Awesome Product</h1>
+        <p style= "color:maroon; font-size:large">
+        <i> Why just stress, when you can stress in fashion </i> </p>
+        </header>
+
+    <main>    
+    <img src="https://blob.sololearn.com/courses/np.png">
+    <p> <b> Introducing our brand new jacket </b>
+    <b> <i> <u> Kingslayer </b> </i> </u> </p>
+    
+    <p> Features of this product are: </p>
+    <ul>
+        <li> Usable in both summer and winter </li>
+        <li> Cool Graphics </li>
+        <li> Proper racing jacket </li>
+        <li> Durable and Comfortable </li>
+        <li> Sweat Absorbant </li>
+
+    <!-- Added heading, product image, and product details -->
+   
+
+   <h2 style="color:green"> Order Now! </h2>
+   <form>
+       <label for ="dropdown"> Size: </label>
+       <select id ="Size">
+           <option value = "s">Small </option>
+           <option value = "m">Medium </option>
+           <option value = "l">Large </option>
+           <option value = "e">Extra Large </option>
+        </select>
+
+        <label for ="dropdown"> Color: </label>
+        <select id ="Color">
+           <option value = "red">Red </option>
+           <option value = "blue">Blue </option>
+           <option value = "green">Green </option>
+           <option value = "black">Black </option>
+       </select>
+
+    <br>
+    <br>
+
+       <label for ="name"> Name: </label>
+       <input type ="text" id="name"> <br><br>
+       <label for ="email"> Email: </label>
+       <input type ="email" id="email"> <br><br>
+       <button style= "color: white; background-color:darkblue; 
+            border:none; border-radius:5px; "> Submit </button>
+       <br>
+       <br>
+       
+    </main>
+
+<footer>
+    <a href="#top">Back to top of page</a>
+</footer>
+
+    </body>
+</html>
