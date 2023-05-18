@@ -31,7 +31,7 @@
     <!-- Added heading, product image, and product details -->
    
 
-   <h2 style="color:green"> Order Now! </h2>
+   <h2 style= "color: green; font-size: 16px"><b>Order Now!</b></h2>
    <form>
        <label for ="dropdown"> Size: </label>
        <select id ="Size">
