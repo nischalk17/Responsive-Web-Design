@@ -5,17 +5,20 @@
 
     <body>
         <header>
-        <h1 style="border:solid; background-color:orange;
-         text-align:center ">
+        <h1 style="border:dashed; background-color:#BFAA8C;
+         text-align:center">
         New Awesome Product</h1>
         <p style= "color:maroon; font-size:large">
         <i> Why just stress, when you can stress in fashion </i> </p>
         </header>
 
     <main>    
-    <img src="https://blob.sololearn.com/courses/np.png">
-    <p> <b> Introducing our brand new jacket </b>
-    <b> <i> <u> Kingslayer </b> </i> </u> </p>
+    <img src="https://images.squarespace-cdn.com/content/v1/52fc05c9e4b08fc45bd99090/1503584715107-Z5DZA7KX7AB6R46HZO6T/RepTheRealm_BBC_02.jpg"
+          alt="Game of Thrones jacket"
+          style="width:400px;height:250px;
+          >
+    <p> <b> Introducing our brand new jacket <u>GOT</u> </b>
+    <b> <i> <u>  </b> </i> </u> </p>
     
     <p> Features of this product are: </p>
     <ul>
