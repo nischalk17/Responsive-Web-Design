@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+<body>
+<header>
+  <h1 id="title">Nischal Kunwar's Survey Form</h1>
+  <p id="description">Please fill up this survey form for our cafe.</p>
+</header>
+
+<main>
+<form id="survey-form">
+  <label for="name" id="name-label">Please Enter Your Name: <input id="name" name="name" type="text" placeholder="Nischal Kunwar" required /></label><hr>
+
+  <label for="email"  id="email-label">Please Enter Your E-mail: <input id="email" name="email" type="email" placeholder="nk317@gmail.com"required /></label><hr>
+
+  <label for="number" id="number-label">Please Enter Your Age: <input id="number" name="number" type="number"
+  min="10" max="120"
+   placeholder="20" required /></label>  <hr>
+
+   
+<label for="preference">What is your preference?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Tea</option>
+            <option value="2">Coffee</option>
+          </select>
+          </lable>
+<hr> 
+
+<label>For Breakfast?</label><br>
+<input type="radio" name="radio-group" id="eggs" value="0">
+<label for="eggs">Eggs</label>
+<input type="radio" name="radio-group" id="sausages" value="1">
+<label for="sausages">Sausages</label>
+<br>
+
+<input type="checkbox" name="checkbox1" id="bread" value="0">
+<label for="bread">Bread</label>
+<input type="checkbox" name="checkbox2" id="pancake" value="1">
+<label for="pancake">Pancake</label>
+<input type="checkbox" name="checkbox3" id="sandwich" value="2">
+<label for="sandwich">Sandwich</label>
+<hr>
+
+<textarea>Please drop your suggestions here...</textarea>
+<hr> 
+
+<input id="submit" type="submit">
+
+</form>
+</main>
+</body>
+</html>
+
+
+
