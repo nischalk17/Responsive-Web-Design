@@ -1,0 +1,103 @@
+body{
+  font-family: Arial;
+  background-color: #00002b;
+}
+
+#main{
+  background-color: ##00002b;
+
+}
+
+#title{
+  font-family: Arial;
+background-color: #A18167;
+    color: #03045e;
+  text-align: center;
+  font-size:40px;
+  padding: 25px;
+}
+
+#description{
+ text-align: center;
+ font-size: 20px;
+  font-family: Arial;
+background-color: #dbc2ad;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+
+}
+
+#img-div{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;background-color:#666666;
+}
+
+img{
+  max-width:100%;
+}
+
+#image{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-caption{
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  height: 20px; 
+  max height: 80px;
+  color: #d3d3d3;
+  }
+
+
+#songs{
+  font-size:20px;
+  text-align: center;
+  padding: 14 px;
+  font-weight: 600;
+  color: #d3d3d3;
+}
+
+#tribute-info{
+  display: block;
+  justify-content: center;
+  
+}
+
+ul{
+  color: #d3d3d3;
+  max-width: 550px;
+  font-size: 20px;
+}
+
+li{
+  margin: 15px;
+  text-align: justify;
+  list-style: circle;
+}
+
+#quote, #footer{
+  color: #d3d3d3;
+  text-align: justify;
+  max-width: 500px;
+  
+  font-size: 16px;
+}
+
+#quote{
+  color: #d3d3d3;
+font-style: italic;
+}
+
+#footer{
+background-color: #878787;
+color: black;
+border-radius: 2px;
+padding: 0.5 px;
+}
